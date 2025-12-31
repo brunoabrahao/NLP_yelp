@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Yelp Dataset - Large files
+yelp_dataset/*.json
+yelp_dataset/*.pdf
+yelp_dataset/.user.json.*
+
+# Intermediate files (generated during notebook execution)
+yelp_dataset/intermediate/*.txt
+yelp_dataset/intermediate/*.dictionary
+yelp_dataset/intermediate/*.mm
+yelp_dataset/intermediate/*.model
+yelp_dataset/intermediate/*.pkl
+
+# Keep intermediate directory structure
+!yelp_dataset/intermediate/.gitkeep
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

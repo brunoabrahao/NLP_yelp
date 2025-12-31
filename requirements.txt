@@ -1,0 +1,13 @@
+# Core NLP and ML libraries
+spacy>=3.0
+gensim>=4.0
+pandas>=1.0
+numpy>=1.20
+
+# Visualization
+bokeh>=3.4
+pyLDAvis>=3.3
+
+# Notebook environment
+jupyter>=1.0
+notebook>=6.0
