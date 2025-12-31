@@ -1,5 +1,6 @@
 # Core NLP and ML libraries
 spacy>=3.0
+spacy-lookups-data>=1.0
 gensim>=4.0
 pandas>=1.0
 numpy>=1.20
