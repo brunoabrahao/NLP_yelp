@@ -24,11 +24,8 @@ yelp_dataset/*.pdf
 yelp_dataset/.user.json.*
 
 # Intermediate files (generated during notebook execution)
-yelp_dataset/intermediate/*.txt
-yelp_dataset/intermediate/*.dictionary
-yelp_dataset/intermediate/*.mm
-yelp_dataset/intermediate/*.model
-yelp_dataset/intermediate/*.pkl
+# Ignore all files and directories in intermediate/
+yelp_dataset/intermediate/*
 
 # Keep intermediate directory structure
 !yelp_dataset/intermediate/.gitkeep
